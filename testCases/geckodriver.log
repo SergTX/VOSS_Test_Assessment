@@ -388,3 +388,38 @@ Read port: 56217
 1655079846561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 1655079855763	Marionette	INFO	Stopped listening on port 56217
+1655084936682	geckodriver	INFO	Listening on 127.0.0.1:50438
+1655084939743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\serge\\AppData\\Local\\Temp\\rust_mozprofileDbhkgs"
+1655084940103	Marionette	INFO	Marionette enabled
+JavaScript error: chrome://browser/content/tabbrowser.js, line 5318: TypeError: this.PictureInPicture is undefined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\serge\\AppData\\Local\\Temp\\rust_mozprofileDbhkgs\\search.json.mozlz4", (void 0)))
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 4103: Error: Area not yet restored
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 4103: Error: Area not yet restored
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 4832: TypeError: aWindow.gNavToolbox.palette is undefined
+1655084993266	geckodriver	INFO	Listening on 127.0.0.1:50490
+1655084996338	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\serge\\AppData\\Local\\Temp\\rust_mozprofilecwsVyy"
+1655084996669	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\serge\\AppData\\Local\\Temp\\rust_mozprofilecwsVyy\\search.json.mozlz4", (void 0)))
+1655084997888	Marionette	INFO	Listening on port 50514
+Read port: 50514
+1655084998003	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655084998871	Marionette	INFO	Stopped listening on port 50514
+1655084999472	geckodriver	INFO	Listening on 127.0.0.1:50547
+1655085002550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\serge\\AppData\\Local\\Temp\\rust_mozprofileU2nANa"
+1655085002886	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\serge\\AppData\\Local\\Temp\\rust_mozprofileU2nANa\\search.json.mozlz4", (void 0)))
+1655085004095	Marionette	INFO	Listening on port 50572
+Read port: 50572
+1655085004113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ultimateqa.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2, line 2: TypeError: jQuery is undefined
+JavaScript error: https://ultimateqa.com/wp-content/plugins/wp-ulike/assets/js/wp-ulike.min.js?ver=4.5.9, line 5: TypeError: t is undefined
+JavaScript error: https://ultimateqa.com/wp-content/themes/Divi/js/scripts.min.js?ver=4.16.0, line 2: TypeError: e is undefined
+JavaScript error: https://ultimateqa.com/wp-content/plugins/thrive-leads/thrive-dashboard/js/dist/frontend.min.js?ver=2.1.5, line 5: TypeError: jQuery is undefined
+JavaScript error: https://ultimateqa.com/wp-content/cache/min/1/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=1651768557, line 9: TypeError: $ is undefined
+JavaScript error: https://ultimateqa.com/wp-content/cache/min/1/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js?ver=1651768557, line 11: TypeError: e is undefined
+JavaScript error: https://ultimateqa.com/wp-content/cache/min/1/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/hashchange.js?ver=1651768557, line 12: TypeError: $ is undefined
+JavaScript error: https://ultimateqa.com/wp-content/cache/min/1/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/magnific-popup.js?ver=1651768557, line 13: TypeError: a is not a function
+JavaScript error: https://ultimateqa.com/wp-content/cache/min/1/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/easypiechart.js?ver=1651768557, line 25: TypeError: $ is undefined
+JavaScript error: https://ultimateqa.com/wp-content/plugins/dg-divi-carousel/scripts/frontend-bundle.min.js?ver=2.0.23, line 1: TypeError: jQuery is not a function
+JavaScript error: https://ultimateqa.com/wp-content/plugins/faq-module-for-divi/scripts/frontend-bundle.min.js?ver=1.0.0, line 1: TypeError: jQuery is not a function
+JavaScript error: https://ultimateqa.com/wp-content/cache/min/1/wp-content/themes/Divi/core/admin/js/common.js?ver=1651768557, line 1: TypeError: $ is not a function
