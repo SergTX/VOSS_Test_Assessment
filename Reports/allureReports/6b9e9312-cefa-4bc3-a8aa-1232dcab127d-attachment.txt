@@ -1,0 +1,14 @@
+[32mINFO    [0m root:test_FillForms.py:27 ************ Test 004 - Start  **************
+[32mINFO    [0m root:test_FillForms.py:33 ************ Open Browser **************
+[32mINFO    [0m root:test_FillForms.py:36 ************ Navigate to Automation Exersises  **************
+[32mINFO    [0m root:test_FillForms.py:41 ************ Navigate to Fill Out Forms  **************
+[32mINFO    [0m root:test_FillForms.py:45 ************ Entering Left name  **************
+[32mINFO    [0m root:test_FillForms.py:50 ************ Entering Left message  **************
+[32mINFO    [0m root:test_FillForms.py:54 ************ Left Submit click  **************
+[32mINFO    [0m root:test_FillForms.py:58 ************ Entering Right name  **************
+[32mINFO    [0m root:test_FillForms.py:62 ************ Entering Right message  **************
+[32mINFO    [0m root:test_FillForms.py:66 ************ Calculating captcha  **************
+[32mINFO    [0m root:test_FillForms.py:74 ************ Inserting answer **************
+[32mINFO    [0m root:test_FillForms.py:80 ************ Right Submit click  **************
+[32mINFO    [0m root:test_FillForms.py:83 ************ Closing browser **************
+[32mINFO    [0m root:test_FillForms.py:86 ************ Test 004 - End  **************

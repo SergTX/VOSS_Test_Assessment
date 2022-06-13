@@ -1,0 +1,6 @@
+[32mINFO    [0m root:test_ssl_cert.py:20 ************ Test 003 - Start  **************
+[32mINFO    [0m root:test_ssl_cert.py:22 ************ Reading from the txt file  **************
+[32mINFO    [0m root:test_ssl_cert.py:26 ************ Extract start date  **************
+[32mINFO    [0m root:test_ssl_cert.py:31 ************ Extract Expire date  **************
+[32mINFO    [0m root:test_ssl_cert.py:33 ************  Current date  **************
+[32mINFO    [0m root:test_ssl_cert.py:36 ************ Test 003 - End  **************
