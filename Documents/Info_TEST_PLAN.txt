@@ -1,0 +1,32 @@
+*******************    Test Plan    *******************
+
+with high level description
+
+### web-based https://ultimateqa.com/
+
+Intro - Test Assessment
+Scope - Show some knowledge of creating framework using Python and Selenium
+Testing Strategy -- Will try to create workable framework (CI)
+Approach - Requirements,
+          - Test design,
+         - Test development,Automation ,
+         - Test execution
+System -
+            Windows
+Schedule - 7 days from recieving email with Test Assessment
+Reports - Allure reports after running TC ,
+         - html reports,
+          - Jenkins reports,
+          - pytest reports,
+          - screenshots
+Tools -
+     - Pycharm ,
+     - Git ,
+      - Github ,
+      - Jenkins
+Test data - created by SS
+
+Tester  - SS
+
+
+
