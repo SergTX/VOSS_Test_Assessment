@@ -35,4 +35,5 @@ def test_SSL_cert():
     print(Fore.BLUE + f" Today is :\n " , currentdate)
     loggerr.info("************ Test 003 - End  **************")
 
+
 test_SSL_cert()

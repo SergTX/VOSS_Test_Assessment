@@ -1,12 +1,9 @@
-*******************    Test Plan    *******************
-
-with high level description
-
 ### web-based https://ultimateqa.com/
 
-Intro - Test Assessment
+Intro - Test Assessment from VOSS
+Purpose - Approach for automating
 Scope - Show some knowledge of creating framework using Python and Selenium
-Testing Strategy -- Will try to create workable framework (CI)
+      - Create workable framework (CI)
 Approach - Requirements,
           - Test design,
          - Test development,Automation ,
@@ -19,6 +16,11 @@ Reports - Allure reports after running TC ,
           - Jenkins reports,
           - pytest reports,
           - screenshots
+Test deliverables
+          - test_Login.py
+          - test_Purchase.py
+          - test_FillForms.py
+          - test_ssl_cert.py
 Tools -
      - Pycharm ,
      - Git ,
@@ -26,7 +28,7 @@ Tools -
       - Jenkins
 Test data - created by SS
 
-Tester  - SS
+Tester  - Sergey Shvaiuk
 
 
 
