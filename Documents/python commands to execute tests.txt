@@ -1,0 +1,14 @@
+##########   Smoke/Regression tests on chrome/Firefox (html/ allure reports ) ***************
+
+# pytest -v -s -m "smoke or regression" --alluredir="C:\Users\serge\OneDrive\Desktop\VOSS_Test_Assessment\Reports\allureReports" --browser chrome
+ # pytest -v -s -m "smoke or regression" --alluredir="C:\Users\serge\OneDrive\Desktop\VOSS_Test_Assessment\Reports\allureReports" --browser Firefox
+
+##########   Only smoke tests on chrome (html/ allure reports ) ***************
+
+# pytest -v -s -m "smoke" --html=..//Reports/reports.html --browser chrome
+# pytest -v -s -m "smoke" --alluredir="C:\Users\serge\OneDrive\Desktop\VOSS_Test_Assessment\Reports\allureReports" --browser chrome
+
+##########   Only regression tests on Firefox (html/ allure reports) ***************
+
+# pytest -v -s -m "regression" --html=..//Reports/reports.html --browser Firefox
+# pytest -v -s -m "regression" --alluredir="C:\Users\serge\OneDrive\Desktop\VOSS_Test_Assessment\Reports\allureReports" --browser Firefox
