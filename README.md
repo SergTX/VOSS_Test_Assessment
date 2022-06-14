@@ -27,3 +27,7 @@
 ### 5. How you might build in exception and error handling to your app?
         --- On python script I would use try block and except statement.
 
+
+
+## P.S -- 
+           -- This test assessment also can be written in Gherkin language (.feature).  Pytest bdd framework , but I desided to go with hybrid framework. 
