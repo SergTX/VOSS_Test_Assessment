@@ -2,10 +2,8 @@ import logging
 
 class LogGen:
     @staticmethod
-    def loggen():
-        logging.basicConfig(filename= '..//..//Logs//logs.log',
-                            format= '%(asctime)s:%(levelname)s:%(message)s',
-                            datefmt='%m/%d/Y %I:%M:%S %p')
-        logger = logging.getLogger()
+    def loggen(self):
+        logging.basicConfig(filename=".//Logs//logs.log")
+        logger = logging.getLogger(__name__)
         logger.setLevel(logging.INFO)
         return logger
