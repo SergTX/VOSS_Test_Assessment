@@ -1,6 +1,0 @@
-[32mINFO    [0m root:test_Login.py:31 ************ Test 001 - Start  **************
-[32mINFO    [0m root:test_Login.py:32 ******************Test Auto Verifcation of the Page ************* 
-[32mINFO    [0m root:test_Login.py:33 ************ Open browser **************
-[32mINFO    [0m root:test_Login.py:42 ************** VERIFIED  001 ********
-[32mINFO    [0m root:test_Login.py:43 ************ Closing browser **************
-[32mINFO    [0m root:test_Login.py:44 ************ Test 001 - End  **************

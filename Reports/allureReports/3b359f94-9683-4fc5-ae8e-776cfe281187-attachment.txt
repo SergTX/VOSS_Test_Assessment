@@ -1,8 +1,0 @@
-[32mINFO    [0m root:test_Purchase.py:18 ************ Test 005 - Start  **************
-[32mINFO    [0m root:test_Purchase.py:19 ************ Open Browser **************
-[32mINFO    [0m root:test_Purchase.py:26 ************ Navigate to Automation Exersises  **************
-[32mINFO    [0m root:test_Purchase.py:30 ************ Navigate to Fake Pricing Page  **************
-[32mINFO    [0m root:test_Purchase.py:34 ************ Scroll down on 300 px  **************
-[32mINFO    [0m root:test_Purchase.py:41 ************ Clicking on Basic Package Purchase  **************
-[32mINFO    [0m root:test_Purchase.py:44 ************ Closing browser **************
-[32mINFO    [0m root:test_Purchase.py:46 ************ Test 005 - End  **************

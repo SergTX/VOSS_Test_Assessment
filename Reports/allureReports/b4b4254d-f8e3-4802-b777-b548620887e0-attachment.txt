@@ -1,7 +1,0 @@
-[32mINFO    [0m root:test_Login.py:63 ************ Test 002 - Start  **************
-[32mINFO    [0m root:test_Login.py:67 ************ Going to Login Automation page  **************
-[32mINFO    [0m root:test_Login.py:70 ************ Verifying Page Title 002 **************
-[32mINFO    [0m root:test_Login.py:74 ************** VERIFIED  002 ********
-[32mINFO    [0m root:test_Login.py:80 ************ Entering Email  **************
-[32mINFO    [0m root:test_Login.py:83 ************ Entering PassWord  **************
-[32mINFO    [0m root:test_Login.py:86 ************ Click on Sign In Button with Captcha  **************

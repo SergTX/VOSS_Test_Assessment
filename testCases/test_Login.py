@@ -84,6 +84,10 @@ class Test_Auto_Page:
         self.L.setUserPassword(self.userPassword)
         time.sleep(5)
         self.loggerr.info("************ Click on Sign In Button with Captcha  **************")
+
+        self.driver.find_element(By.CSS_SELECTOR, 'input#button button-primary g-recaptcha').click()
+        time.sleep(5)
+
         self.driver.find_element(By.XPATH,'//*[@id="sign_in_0c85f3989c"]/div[4]/input').click()
         self.driver.save_screenshot("..//Screenshots//" + "SignIn.png")
 
@@ -98,8 +102,6 @@ class Test_Auto_Page:
         sign_out.click()
         self.loggerr.info("************ Test 002 - End  **************")
         print("User signed out")
-
-
 
 
 
