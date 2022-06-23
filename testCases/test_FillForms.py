@@ -7,12 +7,12 @@ import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from utilities.readProperties import ReadConfig as rc
-from utilities.customLogger import LogGen
+from utilities.loggerCustom import Logging
 from pageObjects.FillFormsPage import Fill_forms
 
 class Test_Fillforms:
 
-    loggerr = LogGen.loggen()
+    loggerr = Logging.logging()
     baseUrl = rc.baseUrl()
 
     L_name = rc.L_name()

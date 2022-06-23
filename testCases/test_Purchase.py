@@ -5,10 +5,10 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from utilities.readProperties import ReadConfig as rc
-from utilities.customLogger import LogGen
+from utilities.loggerCustom import Logging
 
 baseURl = rc.purchase_url()
-loggerr = LogGen.loggen()
+loggerr = Logging.logging()
 
 
 @pytest.mark.smoke

@@ -10,7 +10,8 @@ from selenium.webdriver.common.by import By
 from pageObjects.LoginPage import Login
 import time
 from utilities.readProperties import ReadConfig
-from utilities.customLogger import LogGen
+from utilities.loggerCustom import Logging
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 
@@ -21,8 +22,7 @@ class Test_Auto_Page:
     userPassword = ReadConfig.userPW()
 
 
-    loggerr = LogGen.loggen()
-
+    loggerr = Logging.logging()
 
     @pytest.mark.smoke
     @pytest.mark.regression
@@ -102,3 +102,67 @@ class Test_Auto_Page:
 
 
 
+
+
+
+
+
+
+    #
+    # @pytest.mark.smoke
+    # @pytest.mark.regression
+    # @allure.severity(allure.severity_level.CRITICAL)
+    # def test_click_autologin(self,setup):
+    #     action = ActionChains(setup)
+    #     self.loggerr.info("************ Test 002 - Start  **************")
+    #     self.driver = setup
+    #     self.driver.get(self.urlmain_auto)
+    #     self.driver.maximize_window()
+    #     self.loggerr.info("************ Going to Login Automation page  **************")
+    #     click_login = self.driver.find_element(By.LINK_TEXT, 'Login automation')
+    #     click_login.click()
+    #     self.loggerr.info("************ Verifying Page Title 002 **************")
+    #     actual_title = self.driver.title
+    #     if actual_title == "Ultimate QA":
+    #         self.driver.save_screenshot("..//Screenshots//" + "test_click_autologinPASSED.png")
+    #         self.loggerr.info("************** VERIFIED  002 ********")
+    #         assert True
+    #     else:
+    #         self.driver.save_screenshot("..//Screenshots//" + "test_click_autologinFAILED.png")
+    #         self.loggerr.info("************ Title does not match  002 **************")
+    #         assert False
+    #     self.loggerr.info("************ Entering Email  **************")
+    #     self.L=Login(self.driver)
+    #     self.L.setUserEmail(self.userEmail)
+    #     self.loggerr.info("************ Entering PassWord  **************")
+    #     self.L.setUserPassword(self.userPassword)
+    #     time.sleep(5)
+    #
+    #
+    #
+    #
+    #     self.loggerr.info("************ Click on Sign In Button with Captcha  **************")
+    #
+    #     button = self.driver.find_element(By.XPATH, '//*[@id="sign_in_2f70fd6c9a"]/div[4]/input')
+    #     action.move_to_element(button).click().perform()
+    #
+    #     self.driver.save_screenshot("..//Screenshots//" + "SignIn.png")
+    #
+    #
+    #
+    #
+    #
+    #     # after signed in = locating menu
+    #     self.loggerr.info("************ Clicking on Menu  **************")
+    #     menu_button = self.driver.find_element(By.XPATH, '/html/body/header/div/div/button/span[1]')
+    #     menu_button.click()
+    #
+    #     # clicking sign out
+    #     self.loggerr.info("************ Click on Sign Out  **************")
+    #     sign_out = self.driver.find_element(By.LINK_TEXT, ' Sign Out')
+    #     sign_out.click()
+    #     self.loggerr.info("************ Test 002 - End  **************")
+    #     print("User signed out")
+    #
+    #
+    #

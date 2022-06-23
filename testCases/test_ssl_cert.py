@@ -9,15 +9,14 @@ import datetime
 import pytest
 from colorama import Fore
 import allure
-from utilities.customLogger import LogGen
+from utilities.loggerCustom import Logging
 
-loggerr = LogGen.loggen()
 
 @allure.severity(allure.severity_level.NORMAL)
 @pytest.mark.smoke
 def test_SSL_cert():
-    loggerr = LogGen.loggen()
-    loggerr.info("************ Test 003 - Start  **************")
+    loggerr = Logging.logging()
+    loggerr.critical('************ Test 003 - Start  **************')
     file = open('../Documents/Info_from_Ubuntu_SSL.txt', 'r')
     loggerr.info("************ Reading from the txt file  **************")
     read = file.readlines()

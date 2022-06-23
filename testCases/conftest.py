@@ -11,6 +11,9 @@ def setup(browser):
     elif browser == 'Firefox':
         driver = webdriver.Firefox()
         print('Firefox browser is launched....')
+    elif browser == "Medge":
+        driver = webdriver.Edge()
+        print('Microsoft Edge browser is launched....')
     return driver
 
 def pytest_addoption(parser):   # will get the value from hooks

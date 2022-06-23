@@ -1,0 +1,10 @@
+06/22/2022 12:45:30 PM: INFO: *** Just info ****
+06/22/2022 12:45:30 PM: CRITICAL: *** Critical info ****
+06/22/2022 12:45:30 PM: ERROR: *** Error info ****
+06/22/2022 12:45:30 PM: DEBUG: *** Debug info ****
+06/22/2022 12:45:30 PM: WARNING: *** Warning info ****
+06/22/2022 12:45:51 PM: INFO: *** Just info ****
+06/22/2022 12:45:51 PM: CRITICAL: *** Critical info ****
+06/22/2022 12:45:51 PM: ERROR: *** Error info ****
+06/22/2022 12:45:51 PM: DEBUG: *** Debug info ****
+06/22/2022 12:45:51 PM: WARNING: *** Warning info ****
