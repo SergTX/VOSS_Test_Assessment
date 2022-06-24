@@ -7,13 +7,13 @@ def setup(browser):
     global driver
     if browser == 'chrome':
         driver = webdriver.Chrome()
-        print('Chrome browser is launched....')
+        print('\n Chrome browser is launched....\n')
     elif browser == 'Firefox':
         driver = webdriver.Firefox()
-        print('Firefox browser is launched....')
+        print('\n Firefox browser is launched....\n')
     elif browser == "Medge":
         driver = webdriver.Edge()
-        print('Microsoft Edge browser is launched....')
+        print('\n Microsoft Edge browser is launched....\n')
     return driver
 
 def pytest_addoption(parser):   # will get the value from hooks

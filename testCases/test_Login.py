@@ -105,12 +105,6 @@ class Test_Auto_Page:
 
 
 
-
-
-
-
-
-    #
     # @pytest.mark.smoke
     # @pytest.mark.regression
     # @allure.severity(allure.severity_level.CRITICAL)
@@ -144,9 +138,13 @@ class Test_Auto_Page:
     #
     #
     #     self.loggerr.info("************ Click on Sign In Button with Captcha  **************")
+    #     frame1= self.driver.find_element(By.XPATH,'//*[@id="sign_in_134eecca34"]/div[4]/div/iframe')
+    #     self.driver.switch_to.frame(frame1)
+    #     self.driver.find_element(By.XPATH, '//*[@id="sign_in_134eecca34"]/div[4]/input').click()
     #
-    #     button = self.driver.find_element(By.XPATH, '//*[@id="sign_in_2f70fd6c9a"]/div[4]/input')
-    #     action.move_to_element(button).click().perform()
+    #     # self.driver.switch_to.default_content()
+    #     # self.driver.switch_to.frame('sign_in_134eecca34')
+    #     # self.driver.find_element(By.XPATH,'//*[@id="sign_in_134eecca34"]/div[4]/input').click()
     #
     #     self.driver.save_screenshot("..//Screenshots//" + "SignIn.png")
     #

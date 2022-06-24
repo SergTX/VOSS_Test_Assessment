@@ -5,21 +5,25 @@
 # and printing them out with current date
 
 import datetime
-
+import sys
 import pytest
 from colorama import Fore
 import allure
 from utilities.loggerCustom import Logging
+from datetime import datetime
+from utilities.time_stamp import *
 
 
 @allure.severity(allure.severity_level.NORMAL)
 @pytest.mark.smoke
 def test_SSL_cert():
+
     loggerr = Logging.logging()
     loggerr.critical('************ Test 003 - Start  **************')
     file = open('../Documents/Info_from_Ubuntu_SSL.txt', 'r')
     loggerr.info("************ Reading from the txt file  **************")
     read = file.readlines()
+    print("                 SSC INFO REPORT    " , date)
     for Start_date in read:
         if Start_date.startswith('  start date:'):
             loggerr.info("************ Extract start date  **************")
@@ -30,9 +34,12 @@ def test_SSL_cert():
             loggerr.info("************ Extract Expire date  **************")
             print(Fore.RED + f" SSl Cerificate information about expiration date:\n  ",  EXP_date.strip())
     loggerr.info("************  Current date  **************")
-    currentdate = datetime.datetime.now()
+    currentdate = datetime.now()
     print(Fore.BLUE + f" Today is :\n " , currentdate)
     loggerr.info("************ Test 003 - End  **************")
 
 
+sys.stdout = open("..//Reports/SSL_Certifications_Check.txt", "a")
 test_SSL_cert()
+sys.stdout.close()
+sys.stdout = sys.__stdout__

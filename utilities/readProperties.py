@@ -52,3 +52,13 @@ class ReadConfig:
     def purchase_url():
         purchase_url = config.get('purchase url', 'baseURl')
         return purchase_url
+
+    @staticmethod
+    def rows_table():
+        rows_table= config.get('HTML paths', 'rows')
+        return rows_table
+
+    @staticmethod
+    def cols_table():
+        cols_table = config.get('HTML paths', 'cols')
+        return cols_table

@@ -1,0 +1,57 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:58088/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "MicrosoftEdge", "pageLoadStrategy": "normal", "ms:edgeOptions": {"extensions": [], "args": []}}}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): localhost:58088
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "POST /session HTTP/1.1" 200 756
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"msedge","browserVersion":"102.0.1245.44","ms:edgeOptions":{"debuggerAddress":"localhost:58095"},"msedge":{"msedgedriverVersion":"102.0.1245.44 (72efbf98e0b4777efaaf0e7e0362434a43b3b279)","userDataDir":"C:\\Users\\serge\\AppData\\Local\\Temp\\scoped_dir15008_1983534982"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"65cc19a1897c4a428f4cffec3ca07cb8"}} | headers=HTTPHeaderDict({'Content-Length': '756', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[32mINFO    [0m root:test_Purchase.py:18 ************ Test 005 - Start  **************
+[32mINFO    [0m root:test_Purchase.py:19 ************ Open Browser **************
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:58088/session/65cc19a1897c4a428f4cffec3ca07cb8/url {"url": "https://ultimateqa.com/"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "POST /session/65cc19a1897c4a428f4cffec3ca07cb8/url HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:58088/session/65cc19a1897c4a428f4cffec3ca07cb8/timeouts {"implicit": 10000}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "POST /session/65cc19a1897c4a428f4cffec3ca07cb8/timeouts HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:58088/session/65cc19a1897c4a428f4cffec3ca07cb8/window/maximize {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "POST /session/65cc19a1897c4a428f4cffec3ca07cb8/window/maximize HTTP/1.1" 200 52
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"height":1056,"width":1936,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '52', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[32mINFO    [0m root:test_Purchase.py:26 ************ Navigate to Automation Exersises  **************
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:58088/session/65cc19a1897c4a428f4cffec3ca07cb8/element {"using": "link text", "value": "Automation Exercises"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "POST /session/65cc19a1897c4a428f4cffec3ca07cb8/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"2deae0f0-f33b-48c4-93f5-ec8ecb3eb451"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:58088/session/65cc19a1897c4a428f4cffec3ca07cb8/element/2deae0f0-f33b-48c4-93f5-ec8ecb3eb451/click {"id": "2deae0f0-f33b-48c4-93f5-ec8ecb3eb451"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "POST /session/65cc19a1897c4a428f4cffec3ca07cb8/element/2deae0f0-f33b-48c4-93f5-ec8ecb3eb451/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[32mINFO    [0m root:test_Purchase.py:30 ************ Navigate to Fake Pricing Page  **************
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:58088/session/65cc19a1897c4a428f4cffec3ca07cb8/element {"using": "link text", "value": "Fake Pricing Page"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "POST /session/65cc19a1897c4a428f4cffec3ca07cb8/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"6226184b-8ecd-49fb-9ac0-191b278447d2"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:58088/session/65cc19a1897c4a428f4cffec3ca07cb8/element/6226184b-8ecd-49fb-9ac0-191b278447d2/click {"id": "6226184b-8ecd-49fb-9ac0-191b278447d2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "POST /session/65cc19a1897c4a428f4cffec3ca07cb8/element/6226184b-8ecd-49fb-9ac0-191b278447d2/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[32mINFO    [0m root:test_Purchase.py:34 ************ Scroll down on 300 px  **************
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:58088/session/65cc19a1897c4a428f4cffec3ca07cb8/execute/sync {"script": "window.scrollTo(0,300)", "args": []}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "POST /session/65cc19a1897c4a428f4cffec3ca07cb8/execute/sync HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[32mINFO    [0m root:test_Purchase.py:41 ************ Clicking on Basic Package Purchase  **************
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:58088/session/65cc19a1897c4a428f4cffec3ca07cb8/element {"using": "xpath", "value": "//*[@id=\"post-5050\"]/div/div[1]/div/div[1]/div[2]/div[2]/div/div/div/div[4]/a"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "POST /session/65cc19a1897c4a428f4cffec3ca07cb8/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"61205fd9-d968-48e7-a91c-6f7f2006fe47"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 POST http://localhost:58088/session/65cc19a1897c4a428f4cffec3ca07cb8/element/61205fd9-d968-48e7-a91c-6f7f2006fe47/click {"id": "61205fd9-d968-48e7-a91c-6f7f2006fe47"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "POST /session/65cc19a1897c4a428f4cffec3ca07cb8/element/61205fd9-d968-48e7-a91c-6f7f2006fe47/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[32mINFO    [0m root:test_Purchase.py:44 ************ Closing browser **************
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:361 DELETE http://localhost:58088/session/65cc19a1897c4a428f4cffec3ca07cb8/window {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://localhost:58088 "DELETE /session/65cc19a1897c4a428f4cffec3ca07cb8/window HTTP/1.1" 200 12
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:383 Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:412 Finished Request
+[32mINFO    [0m root:test_Purchase.py:46 ************ Test 005 - End  **************
