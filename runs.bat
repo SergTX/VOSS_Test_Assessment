@@ -1,6 +1,7 @@
-@echo off
 
-cd testCases
+
+cd testCases 
 call run.bat
+
 pause
 

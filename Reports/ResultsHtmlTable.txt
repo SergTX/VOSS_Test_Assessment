@@ -1,35 +1,5 @@
 
-                        HTML TABLE INFO    2022_06_24-12:20:53_PM
-
- Table contains number of rows : 4
-
- Table contains number of columns : 3 
-
-Software Development Engineer in Test            Automation            $150,000+            
-Automation Testing Architect            Automation            $120,000+            
-Quality Assurance Engineer            Manual            $50,000+            
-
-                        HTML TABLE INFO    2022_06_24-12:22:25_PM
-
- Table contains number of rows : 4
-
- Table contains number of columns : 3 
-
-Software Development Engineer in Test            Automation            $150,000+            
-Automation Testing Architect            Automation            $120,000+            
-Quality Assurance Engineer            Manual            $50,000+            
-
-                        HTML TABLE INFO    2022_06_24-12:32:10_PM
-
- Table contains number of rows : 4
-
- Table contains number of columns : 3 
-
-Software Development Engineer in Test            Automation            $150,000+            
-Automation Testing Architect            Automation            $120,000+            
-Quality Assurance Engineer            Manual            $50,000+            
-
-                        HTML TABLE INFO    2022_06_24-12:36:47_PM
+                        HTML TABLE INFO    2022_06_24-07:09:25_PM
 
  Table contains number of rows : 4
 
