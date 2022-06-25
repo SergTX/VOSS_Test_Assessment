@@ -1,7 +1,7 @@
+cd testCases
+run.bat
 
 
-cd testCases 
-call run.bat
 
 pause
 

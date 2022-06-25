@@ -13,6 +13,8 @@ from pageObjects.HTML_el_page import HTML_table
 import sys
 from datetime import datetime
 from utilities.time_stamp import *
+import attr
+import pluggy
 
 baseUrl = rc.baseUrl()
 loggerr = Logging.logging()
