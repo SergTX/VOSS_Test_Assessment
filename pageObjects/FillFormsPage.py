@@ -1,5 +1,5 @@
 import pytest
-from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 
 class Fill_forms:
@@ -15,19 +15,19 @@ class Fill_forms:
         self.driver = driver
 
     def typeLeftName(self,L_name):
-        self.driver.find_element_by_id(self.left_name_by_id).send_keys(L_name)
+        self.driver.find_element(By.ID,self.left_name_by_id).send_keys(L_name)
 
     def typeLeftMessage(self,L_message):
-        self.driver.find_element_by_xpath(self.left_message_by_xpath).send_keys(L_message)
+        self.driver.find_element(By.XPATH,self.left_message_by_xpath).send_keys(L_message)
 
     def L_submit_click(self):
-        self.driver.find_element_by_name(self.left_submit_by_name).click()
+        self.driver.find_element(By.NAME, self.left_submit_by_name).click()
 
     def typeRightName(self,R_name):
-        self.driver.find_element_by_id(self.right_name_bi_id).send_keys(R_name)
+        self.driver.find_element(By.NAME, self.right_name_bi_id).send_keys(R_name)
 
     def typeRightMessage(self,R_message):
-        self.driver.find_element_by_xpath(self.right_message_by_xpath).send_keys(R_message)
+        self.driver.find_element(By.XPATHself.right_message_by_xpath).send_keys(R_message)
 
     def R_submit_click(self):
-        self.driver.find_element_by_xpath(self.right_submit_by_xpath).click()
+        self.driver.find_element(By.XPATH, self.right_submit_by_xpath).click()
