@@ -12,7 +12,7 @@ loggerr = Logging.logging()
 
 
 @pytest.mark.smoke
-@pytest.mark.jenkins
+@pytest.mark.regression
 @allure.severity(allure.severity_level.NORMAL)
 def test_Purchase_basicPackage(setup):
     loggerr.info("************ Test 005 - Start  **************")
