@@ -27,7 +27,7 @@ class Fill_forms:
         self.driver.find_element(By.NAME, self.right_name_bi_id).send_keys(R_name)
 
     def typeRightMessage(self,R_message):
-        self.driver.find_element(By.XPATHself.right_message_by_xpath).send_keys(R_message)
+        self.driver.find_element(By.XPATH,self.right_message_by_xpath).send_keys(R_message)
 
     def R_submit_click(self):
         self.driver.find_element(By.XPATH, self.right_submit_by_xpath).click()
