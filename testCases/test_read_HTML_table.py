@@ -21,6 +21,7 @@ loggerr = Logging.logging()
 
 
 @pytest.mark.smoke
+@pytest.mark.jenkins
 @pytest.mark.regression
 def test_read_htmlTable(setup):
     sys.stdout = open("..//Reports/ResultsHtmlTable.txt", "a")

@@ -26,6 +26,7 @@ class Test_Auto_Page:
 
     @pytest.mark.smoke
     @pytest.mark.regression
+    @pytest.mark.jenkins
     @allure.severity(allure.severity_level.MINOR)
     def test_AutoVerifyTitle(self,setup):
         self.loggerr.info("************ Test 001 - Start  **************")

@@ -15,6 +15,7 @@ from utilities.time_stamp import *
 
 
 @allure.severity(allure.severity_level.NORMAL)
+@pytest.mark.jenkins
 @pytest.mark.smoke
 def test_SSL_cert():
 

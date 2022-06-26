@@ -22,6 +22,7 @@ class Test_Fillforms:
 
 
     @pytest.mark.regression
+    @pytest.mark.jenkins
     @allure.severity(allure.severity_level.NORMAL)
     def test_fill_the_forms(self, setup):
         self.loggerr.info("************ Test 004 - Start  **************")

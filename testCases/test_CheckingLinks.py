@@ -10,6 +10,7 @@ baseURl = rc.purchase_url()
 loggerr = Logging.logging()
 
 @pytest.mark.regression
+@pytest.mark.jenkins
 @allure.severity(allure.severity_level.NORMAL)
 def test_checkLinks(setup):
     loggerr.info("************ Test 007 - Start  **************")

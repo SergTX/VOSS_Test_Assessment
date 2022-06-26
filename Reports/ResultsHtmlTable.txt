@@ -68,3 +68,23 @@ Quality Assurance Engineer            Manual            $50,000+
 Software Development Engineer in Test            Automation            $150,000+            
 Automation Testing Architect            Automation            $120,000+            
 Quality Assurance Engineer            Manual            $50,000+            
+
+                        HTML TABLE INFO    2022_06_26-10:24:44_AM
+
+ Table contains number of rows : 4
+
+ Table contains number of columns : 3 
+
+Software Development Engineer in Test            Automation            $150,000+            
+Automation Testing Architect            Automation            $120,000+            
+Quality Assurance Engineer            Manual            $50,000+            
+
+                        HTML TABLE INFO    2022_06_26-10:28:21_AM
+
+ Table contains number of rows : 4
+
+ Table contains number of columns : 3 
+
+Software Development Engineer in Test            Automation            $150,000+            
+Automation Testing Architect            Automation            $120,000+            
+Quality Assurance Engineer            Manual            $50,000+            

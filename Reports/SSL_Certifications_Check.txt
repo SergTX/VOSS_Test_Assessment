@@ -126,3 +126,19 @@
    expire date: Aug 19 14:44:23 2022 GMT
 [34m Today is :
   2022-06-26 09:29:22.309044
+                 SSC INFO REPORT     2022_06_26-10:24:44_AM
+[32m
+ SSl Cerificate information about start date:
+   start date: May 21 14:44:24 2022 GMT
+[31m SSl Cerificate information about expiration date:
+   expire date: Aug 19 14:44:23 2022 GMT
+[34m Today is :
+  2022-06-26 10:24:44.853340
+                 SSC INFO REPORT     2022_06_26-10:28:21_AM
+[32m
+ SSl Cerificate information about start date:
+   start date: May 21 14:44:24 2022 GMT
+[31m SSl Cerificate information about expiration date:
+   expire date: Aug 19 14:44:23 2022 GMT
+[34m Today is :
+  2022-06-26 10:28:21.172605
